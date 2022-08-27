@@ -1,0 +1,23 @@
+<ion-content>
+  <img src="https://cdn.pixabay.com/photo/2016/10/25/18/49/money-1769716_1280.png" alt="">
+  <div class="nome">
+  <h1>Controle</h1>
+  <h2>Finaceiro</h2>
+  <h3>Pessoal</h3>
+  </div>
+  <h1>Acesse sua conta</h1>
+  <div class="dadoslogin">
+    <ion-item >
+      <ion-label position="floating">E-mail</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <ion-item >
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input type="password" ></ion-input>
+    </ion-item>
+  </div>
+  <ion-button class="recupsenha">Recuperar senha</ion-button>
+  <ion-button class="entrar" color="success"(click)="entrar()"size="small">Entrar</ion-button>
+  <h2>Não tenho conta<br>Click no botão abaixo para criar uma conta agora</h2>
+  <ion-button class="cadastrar" color="success"(click)="cadastrar()"size="small">Cadastrar</ion-button>
+</ion-content>

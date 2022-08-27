@@ -1,0 +1,101 @@
+
+<ion-content>
+  <div class="tipolancamentos">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button color="danger" size="small">Despesas</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button  color="success" size="small">Receitas</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <div class="lancamento">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-item >
+            <ion-label position="floating">Valor</ion-label>
+            <ion-input placeholder="valor">R$</ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label position="floating">Descrição</ion-label>
+            <ion-input ></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label position="floating">Categoria</ion-label>
+            <ion-input ></ion-input>
+          <ion-button slot="end">
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </ion-button>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label position="floating">Data</ion-label>
+            <ion-input ></ion-input>
+          <ion-button slot="end">
+            <ion-icon name="calendar-number-outline"></ion-icon>
+          </ion-button>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label position="floating">Observação</ion-label>
+            <ion-input ></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <div class="confirma">
+    <ion-button color="success" size="large" >
+      <ion-icon name="checkmark-outline"></ion-icon>
+    </ion-button>
+  </div>
+  <div class="botoes">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="4">
+          <ion-button (click)="inicio()">
+            <div class="inicio">
+              <ion-icon name="home-outline"></ion-icon>
+              <ion-text>Inicio</ion-text>
+            </div>
+          </ion-button>
+        </ion-col>
+        <ion-col size="4">
+          <ion-button (click)="lancamento()">
+            <div class="lancam">
+              <ion-icon name="cash-outline"></ion-icon>
+              <ion-text>Lançam...</ion-text>
+            </div>
+          </ion-button>
+        </ion-col>
+        <ion-col size="4">
+          <ion-button>
+            <div class="planejam">
+              <ion-icon name="server-outline"></ion-icon>
+              <ion-text>Planejam...</ion-text>
+            </div>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+

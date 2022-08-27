@@ -1,0 +1,19 @@
+<ion-content >
+  <img src="https://cdn.pixabay.com/photo/2016/10/25/18/49/money-1769716_1280.png" alt="">
+  <h1>Criar nova conta</h1>
+  <div class="cadastro">    
+    <ion-item>
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input [(ngModel)]="nome" type="string"></ion-input>
+    </ion-item>
+    <ion-item >
+      <ion-label position="floating">E-mail</ion-label>
+      <ion-input [(ngModel)]="email" type="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input [(ngModel)]="senha" type="password"></ion-input>
+    </ion-item> 
+  </div>
+  <ion-button class="cadastrar" color="success" expand="full" size="large"(click)="cadastrar()">Cadastrar</ion-button>
+</ion-content>

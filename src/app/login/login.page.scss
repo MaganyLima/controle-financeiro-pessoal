@@ -1,0 +1,72 @@
+ion-content{
+  background-color: chocolate;
+}
+img{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  height: 100px;
+}
+
+.nome{
+  color: rgb(209, 80, 33);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  h1{
+    position: fixed;
+    top: 10px;
+    left: 120px;
+    font-size: 22px;
+  }
+  h2{
+    position: fixed;
+    top: 40px;
+    left: 120px;
+    font-size: 22px;
+  }
+  h3{
+    position: fixed;
+    top: 70px;
+    left: 120px;
+    font-size: 22px;
+}
+}
+
+h1{
+  position: fixed;
+  top: 110px;
+  font-size: 20px;
+  left: 70px;
+}
+
+.dadoslogin{
+  position: fixed;
+  top: 160px;
+  width: 270px;
+}
+
+.recupsenha{
+  position: relative;
+  top: 400px;
+  left: 50px;
+}
+
+.entrar{
+  position: fixed;
+  top: 320px;
+  width: 200px;
+  left: 40px;
+}
+
+h2{
+  position: fixed;
+  top: 440px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.cadastrar{
+  position: fixed;
+  top: 520px;
+  left: 40px;
+  width: 200px;
+}

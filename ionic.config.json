@@ -1,0 +1,7 @@
+{
+  "name": "CFPessoal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
