@@ -62,35 +62,38 @@
       </ion-row>
     </ion-grid>
   </div>
-  <div class="confirma">
+  <div class="botao">
     <ion-button color="success" size="large" >
-      <ion-icon name="checkmark-outline"></ion-icon>
+      <div class="confirma">
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <ion-text>Confirmar</ion-text>
+      </div>
     </ion-button>
   </div>
   <div class="botoes">
     <ion-grid>
       <ion-row>
         <ion-col size="4">
-          <ion-button (click)="inicio()">
+          <ion-button (click)="inicio()" size="large">
             <div class="inicio">
-              <ion-icon name="home-outline"></ion-icon>
-              <ion-text>Inicio</ion-text>
+            <ion-icon name="home-outline"></ion-icon>
+            <ion-text>Inicio</ion-text>
             </div>
           </ion-button>
         </ion-col>
         <ion-col size="4">
-          <ion-button (click)="lancamento()">
+          <ion-button (click)="lancamento()" size="large">
             <div class="lancam">
-              <ion-icon name="cash-outline"></ion-icon>
-              <ion-text>Lançam...</ion-text>
+            <ion-icon name="swap-horizontal-outline"></ion-icon>
+            <ion-text>Lançam...</ion-text>
             </div>
           </ion-button>
         </ion-col>
         <ion-col size="4">
-          <ion-button>
+          <ion-button size="large">
             <div class="planejam">
-              <ion-icon name="server-outline"></ion-icon>
-              <ion-text>Planejam...</ion-text>
+              <ion-icon name="cash-outline"></ion-icon>
+              <ion-text>Planeja...</ion-text>
             </div>
           </ion-button>
         </ion-col>
