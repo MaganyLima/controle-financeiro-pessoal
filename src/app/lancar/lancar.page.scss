@@ -1,8 +1,20 @@
-.tipolancamentos{
+.titulo{
   position: relative;
-  top: 20px;
+  top: 30px;
   text-align: center;
+  font-size: 22px;
 }
+
+.tipolancamento{
+  position: relative;
+  top: 60px;
+  text-align: center;
+.select{
+  overflow: auto !important;
+}
+}
+
+
 
 .lancamento{
   position: relative;
@@ -11,7 +23,7 @@
 .botao{
   text-align: center;
   position: relative;
-  top: 25px;
+  top: 110px;
   ion-button{
   .confirma{
   display: flex;
@@ -32,7 +44,7 @@
 .botoes{
   ion-button{
     position: relative;
-    top: 40px;
+    top: 140px;
     width: 100%;
     .inicio{
       display: flex;

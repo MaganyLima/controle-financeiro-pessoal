@@ -24,7 +24,7 @@ export class CadastroPage implements OnInit {
 
   async cadastrar(){
     this.navCtrl.navigateRoot('login');
-    this.http.post<any[]>('http://localhost/CFP/cadastroUsuario.php',
+    this.http.post<any[]>(
     {nome : this.nome, email : this.email, senha: this.senha})
     .subscribe(valor =>{});
   }

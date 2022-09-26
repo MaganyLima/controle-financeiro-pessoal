@@ -19,7 +19,7 @@ ngOnInit() {
 
 atualizalancamentos(){
   this.tdsLancamentos=[];
-  this.http.get<any[]>('http://localhost/CFP/consulta.php')
+  this.http.get<any[]>()
   .subscribe( valor => {
     valor.forEach( dados => {
       this.tdsLancamentos.push([dados.lancamento,dados.categoria,dados.descricao,dados.valor]);
