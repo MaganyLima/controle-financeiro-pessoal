@@ -24,9 +24,10 @@ export class CadastroPage implements OnInit {
 
   async cadastrar(){
     this.navCtrl.navigateRoot('login');
-    this.http.post<any[]>(
-    {nome : this.nome, email : this.email, senha: this.senha})
+    /*this.http.post<any[]>(
+    {nome: this.nome, email : this.email, senha: this.senha})
     .subscribe(valor =>{});
+    */
   }
 
 }

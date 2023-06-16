@@ -18,6 +18,7 @@ ngOnInit() {
  }
 
 atualizalancamentos(){
+  /*
   this.tdsLancamentos=[];
   this.http.get<any[]>()
   .subscribe( valor => {
@@ -25,6 +26,7 @@ atualizalancamentos(){
       this.tdsLancamentos.push([dados.lancamento,dados.categoria,dados.descricao,dados.valor]);
     });
   });
+  */
 
 }
 inicio(){

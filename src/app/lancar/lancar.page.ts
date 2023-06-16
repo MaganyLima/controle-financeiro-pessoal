@@ -48,9 +48,11 @@ export class LancarPage implements OnInit{
 
   async confirmar(){
     this.navCtrl.navigateRoot('lancamentos');
+    /*
     this.http.post<any[]>(
     {valor : this.valor, descrição : this.descrição, categoria : this.categoria, data : this.data})
     .subscribe(valor =>{});
+    */
   }
 
   inicio(){
